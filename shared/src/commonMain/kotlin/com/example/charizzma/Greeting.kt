@@ -4,6 +4,6 @@ class Greeting {
     private val platform: Platform = getPlatform()
 
     fun greet(): String {
-        return "Hello, ${platform.name}! How are you??"
+        return "Hello, ${platform.name}! This is the start of RizzTracker"
     }
 }
