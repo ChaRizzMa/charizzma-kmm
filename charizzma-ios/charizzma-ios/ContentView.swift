@@ -5,7 +5,12 @@ struct ContentView: View {
 	let greet = Greeting().greet()
 
 	var body: some View {
-		Text(greet)
+        VStack() {
+            Text(greet)
+            Text("Hello! World").foregroundColor(Color.theme.primary)
+            
+            
+        }
 	}
 }
 
