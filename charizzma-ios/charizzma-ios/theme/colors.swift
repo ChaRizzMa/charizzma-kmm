@@ -26,4 +26,6 @@ struct ColorTheme {
     let textPrimary = Color("TextPrimary")
     let textSecondary = Color("TextSecondary")
     let textHelper = Color("TextHelper")
+    
+    let primaryOnPressed = Color("PrimaryOnClicked")
 }

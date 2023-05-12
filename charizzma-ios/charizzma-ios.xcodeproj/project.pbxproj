@@ -12,6 +12,10 @@
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 		ACE4F5CB2A0AA19200934ABC /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4F5CA2A0AA19200934ABC /* colors.swift */; };
+		ACE4F5CD2A0D74F200934ABC /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4F5CC2A0D74F200934ABC /* ButtonStyles.swift */; };
+		ACE4F5CF2A0D787300934ABC /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4F5CE2A0D787300934ABC /* TextStyles.swift */; };
+		ACE4F5D12A0D7E6300934ABC /* InputFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4F5D02A0D7E6200934ABC /* InputFields.swift */; };
+		ACE4F5D82A0DC98600934ABC /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4F5D72A0DC98600934ABC /* login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +39,10 @@
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACE4F5CA2A0AA19200934ABC /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		ACE4F5CC2A0D74F200934ABC /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		ACE4F5CE2A0D787300934ABC /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
+		ACE4F5D02A0D7E6200934ABC /* InputFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFields.swift; sourceTree = "<group>"; };
+		ACE4F5D72A0DC98600934ABC /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,7 @@
 		7555FF7D242A565900829871 /* charizzma-ios */ = {
 			isa = PBXGroup;
 			children = (
+				ACE4F5D22A0DC93D00934ABC /* pages */,
 				ACE4F5C92A0AA16600934ABC /* theme */,
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
 				7555FF82242A565900829871 /* ContentView.swift */,
@@ -97,8 +106,51 @@
 			isa = PBXGroup;
 			children = (
 				ACE4F5CA2A0AA19200934ABC /* colors.swift */,
+				ACE4F5CC2A0D74F200934ABC /* ButtonStyles.swift */,
+				ACE4F5CE2A0D787300934ABC /* TextStyles.swift */,
+				ACE4F5D02A0D7E6200934ABC /* InputFields.swift */,
 			);
 			path = theme;
+			sourceTree = "<group>";
+		};
+		ACE4F5D22A0DC93D00934ABC /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				ACE4F5D62A0DC97000934ABC /* myrizz */,
+				ACE4F5D52A0DC96100934ABC /* addrizz */,
+				ACE4F5D42A0DC95700934ABC /* homefeed */,
+				ACE4F5D32A0DC94E00934ABC /* login */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		ACE4F5D32A0DC94E00934ABC /* login */ = {
+			isa = PBXGroup;
+			children = (
+				ACE4F5D72A0DC98600934ABC /* login.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		ACE4F5D42A0DC95700934ABC /* homefeed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = homefeed;
+			sourceTree = "<group>";
+		};
+		ACE4F5D52A0DC96100934ABC /* addrizz */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = addrizz;
+			sourceTree = "<group>";
+		};
+		ACE4F5D62A0DC97000934ABC /* myrizz */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = myrizz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				ACE4F5CD2A0D74F200934ABC /* ButtonStyles.swift in Sources */,
+				ACE4F5CF2A0D787300934ABC /* TextStyles.swift in Sources */,
+				ACE4F5D12A0D7E6300934ABC /* InputFields.swift in Sources */,
 				ACE4F5CB2A0AA19200934ABC /* colors.swift in Sources */,
+				ACE4F5D82A0DC98600934ABC /* login.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
